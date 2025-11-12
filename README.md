@@ -1,4 +1,4 @@
-# 🤓 Gestor de Tareas 
+# Gestor de Tareas 
 
 Aplicación web para gestionar tareas personales con registro, login y CRUD completo.
 
