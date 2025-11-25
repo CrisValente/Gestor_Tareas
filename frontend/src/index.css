@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+input, button {
+  padding: 12px;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 320px;
+  border-radius: 6px;
+  border: none;
+}
+
+input {
+  background: #1a1a1a;
+  color: white;
+}
+
+button {
+  background: #4e80ff;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #3c6be0;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}

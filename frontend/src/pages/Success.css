@@ -1,0 +1,56 @@
+/* Fondo */
+.success-bg {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #0d0d0d, #2b2b2b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Tarjeta */
+.success-card {
+  width: 450px; /* MÁS GRANDE */
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  text-align: center;
+  color: #fff;
+  backdrop-filter: blur(15px);
+  transition: 0.25s ease;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+/* Hover en TODA la tarjeta */
+.success-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Texto */
+.success-text {
+  margin: 15px 0 25px 0;
+  font-size: 16px;
+  color: #ccc;
+}
+
+/* Botón verde */
+.success-btn {
+  padding: 14px;
+  width: 100%;
+  background: #1cbf4a;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+/* Hover botón verde */
+.success-btn:hover {
+  background: #149a3a;
+}
